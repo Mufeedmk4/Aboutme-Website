@@ -11738,3 +11738,11 @@ pre .code {
   0% {transform: translateX(0);}
   100% {transform: translateX(-100%);}
 }
+
+.top-bottom-border {
+  background-color: #fff;
+  background-clip: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+}
