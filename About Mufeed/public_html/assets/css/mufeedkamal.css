@@ -884,6 +884,7 @@ pre code {
 }
 
 @media (min-width: 576px) {
+
   .col-sm {
     -webkit-flex-basis: 0;
         -ms-flex-preferred-size: 0;
@@ -1111,6 +1112,12 @@ pre code {
   }
   .offset-sm-11 {
     margin-left: 91.66667%;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
   }
 }
 
